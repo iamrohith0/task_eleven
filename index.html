@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover Effect with CSS</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0; 
+        }
+        #hoverImage {
+            transition: opacity 0.3s;
+        }
+        #hoverImage:hover {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <img id="hoverImage" src="https://img.freepik.com/free-photo/dragons-fantasy-artificial-intelligence-image_23-2150400884.jpg" alt="Image" />
+</body>
+</html>
